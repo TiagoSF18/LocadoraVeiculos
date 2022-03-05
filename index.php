@@ -94,12 +94,19 @@ require 'config.php';
       </div>
       <div class="modal-body">
       <form>
-        <label for="inputText1" class="form-label">Local</label>
-        <input type="text" id="inputText1" class="form-control">
-        <div class="input-group mb-3">
-          <input type="text" class="form-control mt-2" placeholder="..." aria-label="">
-          <!-- <span class="input-group-text">@</span> -->
-          <input type="text" class="form-control  mt-2" placeholder="..." aria-label="">
+        <div class="input-group mt-3">
+          <div class="row">
+            <div class="col-12 mb-3">
+              <label for="inputText1" class="form-label">Local</label>
+              <input type="text" id="inputText1" class="form-control">
+          </div>
+            <div class="col-6">
+              <input type="text" aria-label="First name" class="form-control">
+            </div>
+            <div class="col-6">
+              <input type="text" aria-label="First name" class="form-control">
+            </div>
+          </div>
         </div>
       </form>
       </div>
