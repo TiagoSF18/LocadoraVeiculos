@@ -101,9 +101,11 @@ require 'config.php';
               <input type="text" id="inputText1" class="form-control">
           </div>
             <div class="col-6">
+              <label for="inputText1" class="form-label">Data Locação</label>
               <input type="text" aria-label="First name" class="form-control">
             </div>
             <div class="col-6">
+              <label for="inputText1" class="form-label">Devolução</label>
               <input type="text" aria-label="First name" class="form-control">
             </div>
           </div>
